@@ -10,7 +10,8 @@ class Header extends Component{
     }
 
     render(){
-        return ( <>
+        return ( 
+        <>
          
             <header className="header-area">
               <div className="container">
@@ -25,7 +26,7 @@ class Header extends Component{
                           <div className="main-menu float-md-right float-lg-right float-sm-none">
                               <ul className={this.state.clicked ? 'nav-menu-active' : 'nav-menu'}>
                                   <li><a href="#">Home</a></li>
-                                  <li><a href="#about">About Us</a></li>
+                                  <li><a href="">About Us</a></li>
                                   <li><a href="#">App Features</a></li>
                                   <li><a href="#" className="contactus">Contact Us</a></li>
                               </ul>
